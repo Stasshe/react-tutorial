@@ -50,7 +50,7 @@ jobs:
       - name: Build with Next.js
         env:
           NEXT_PUBLIC_IS_PRODUCTION_BUILD: 'true'
-          NEXT_PUBLIC_BASE_PATH: 'Kyoute-Keisya-calc'
+          NEXT_PUBLIC_BASE_PATH: 'react-tutorial'
           BUILD_MODE: production
         run: npm run build
       - name: Upload artifact
