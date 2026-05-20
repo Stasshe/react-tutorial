@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import BackButton from "@/componets/back";
 
-export default function page02() {
+export default function page01() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <BackButton />
       <h1>Welcome to the Home Page</h1>
       <p>This is a simple home page component.</p>
 

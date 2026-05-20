@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import backbutton from "@/componets/backbutton";
+import BackButton from "@/componets/back";
 
 export default function page02() {
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function page02() {
 
   return (
     <>
-      <backbutton />
+      <BackButton />
       <h1>Welcome to the About Page</h1>
       <p>This is a simple about page component.</p>
     </>
